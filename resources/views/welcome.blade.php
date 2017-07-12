@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HNDAS
+                    H N DAS
                 </div>
 
                 <div class="links">
