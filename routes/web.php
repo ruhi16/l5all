@@ -13,7 +13,7 @@
 //use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
-	$names = DB::table('users')->get();
+	//$names = DB::table('users')->get();
 
 
 	// echo "Hello";
