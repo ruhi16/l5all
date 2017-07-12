@@ -80,6 +80,9 @@
             <div class="content">
                 <div class="title m-b-md">
                     H N DAS Test...
+                    @foreach($names as $name)
+                        {{$name->name}}
+                    @endforeach
                 </div>
 
                 <div class="links">
