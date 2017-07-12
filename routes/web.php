@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use Illuminate\Support\Facades\DB;
+//use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
 	$names = DB::table('users')->get();
@@ -20,6 +20,6 @@ Route::get('/', function () {
 	// foreach ($names as $key) {
 	// 	echo $key->name;
 	// }
-    return view('welcome', compact('names'));
-    //return view('welcome');
+    //return view('welcome', compact('names'));
+    return view('welcome');
 });
